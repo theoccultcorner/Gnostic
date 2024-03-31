@@ -11,7 +11,7 @@
     "deploy": "gh-pages -d dist",
     "preview": "vite preview",
     "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,css}\"",
-    "prepare": "husky install"
+    "prepare": "chmod +x ./node_modules/husky/lib/bin.js && husky install"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
