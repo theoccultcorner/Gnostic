@@ -74,11 +74,3 @@
   }
 }
 
-{
-  "dependencies": {
-    "@mui/styles": "^5.15.2"
-  },
-  "resolutions": {
-    "react": "^17.0.0"
-  }
-}
